@@ -1,0 +1,76 @@
+  /* General styling */
+  body {
+      margin: 0;
+      color: #030303;
+  }
+
+  /* Main styling */
+  main {
+    display: flex;
+    align-items: flex-start;
+    font: arial;
+    font-size: 1.2em;
+  }
+  
+  /* Article styling */
+  article {
+    border: 1.5px solid #cecece;
+    border-radius: 10px;
+    width: 380px;
+    margin: 15px;
+    box-shadow: 1px 1px 2px #cecece;
+  }
+  article div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+
+/* Box styling */
+  .box-subtitle {
+    color: grey;
+    margin-bottom: 20px;
+  }
+  .box-title {
+    font-weight: bold;
+  }
+  .box-icon {
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+  }
+  .box-body {
+    margin-bottom: 10px;
+  }
+  .box-buttons {
+    justify-content: center;
+    border-top: 0.5px solid #cecece;
+    margin-left: 0;
+  }
+
+  /* Button styling */
+  button {
+    width: 174px;
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #fff;
+  }
+  .green-button {
+    border-left: 2px solid #24d600;
+    border-right: 0;
+    border-top: 2px solid #24d600;
+    border-bottom: 2px solid #24d600;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #24d600;
+  }
+  
+  .red-button {
+    border: 2px solid #ff0000;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #ff0000;
+  }
